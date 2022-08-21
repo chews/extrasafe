@@ -1,0 +1,71 @@
+{
+  "name": "walletconnect-test-wallet",
+  "version": "1.7.8",
+  "private": true,
+  "keywords": [
+    "walletconnect",
+    "ethereum",
+    "web3",
+    "crypto"
+  ],
+  "author": "WalletConnect, Inc. <walletconnect.com>",
+  "homepage": "https://walletconnect.org",
+  "license": "MIT",
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "lint": "eslint -c './.eslintrc' --fix './src/**/*{.ts,.tsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walletconnect/walletconnect-test-wallet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/walletconnect/walletconnect-test-wallet/issues"
+  },
+  "dependencies": {
+    "@walletconnect/client": "^1.7.8",
+    "@walletconnect/utils": "^1.7.8",
+    "axios": "^0.21.1",
+    "bignumber.js": "^9.0.1",
+    "blockies-ts": "^1.0.0",
+    "bn.js": "^5.1.3",
+    "eth-sig-util": "^2.5.3",
+    "ethers": "^5.0.17",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-qr-reader": "^2.2.1",
+    "react-scripts-ts": "^4.0.8",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.6",
+    "@types/prop-types": "^15.7.3",
+    "@types/react": "^16.9.51",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-qr-reader": "^2.1.2",
+    "@types/styled-components": "^5.1.2",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.9.7"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

@@ -1,0 +1,12 @@
+-r requirements.txt
+coverage==6.4.3
+django-stubs==1.12.0
+factory-boy==3.2.1
+faker==14.0.0
+mypy==0.971
+pytest==7.1.2
+pytest-celery==0.0.0
+pytest-django==4.5.2
+pytest-env==0.6.2
+pytest-rerunfailures==10.2
+pytest-sugar==0.9.5
